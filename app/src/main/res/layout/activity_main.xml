@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="18dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="16dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:background="@android:color/transparent"
+        android:padding="12dp"
+        android:drawablePadding="12dp"
+        android:hint="Username"
+        android:textColorHint="#fff"
+        android:drawableLeft="@drawable/ic_person_white_24dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2298f2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        android:drawablePadding="12dp"
+        android:padding="12dp"
+        android:hint="Password"
+        android:textColorHint="#fff"
+        android:background="@android:color/transparent"
+        android:maxLines="1"
+        android:layout_marginTop="4dp"
+        android:drawableLeft="@drawable/ic_lock_white_24dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2298f2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Remember me "
+        android:textColor="#fff"
+        android:id="@+id/remember"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:id="@+id/login"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:clickable="true"
+        android:textSize="18sp"
+        android:textColor="#2298f2"
+        android:padding="16dp"
+        android:onClick="login"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2298f2"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:id="@+id/signup"
+        android:textColor="#fff"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:clickable="true"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
