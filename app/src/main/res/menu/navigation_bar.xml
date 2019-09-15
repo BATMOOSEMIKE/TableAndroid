@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Map"
+        android:icon = "@drawable/ic_map_white_24dp"
+        android:id = "@+id/map" />
+
+    <item android:title="Recommend"
+        android:icon = "@drawable/ic_arrow_right_24dp"
+        android:id = "@+id/recommendations" />
+
+    <item android:title="Experimental"
+        android:icon = "@drawable/ic_cake_white_24dp"
+        android:id = "@+id/experimental" />
+
+</menu>

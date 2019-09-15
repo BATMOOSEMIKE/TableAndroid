@@ -27,7 +27,8 @@
         android:background="@android:color/transparent"
         android:padding="12dp"
         android:drawablePadding="12dp"
-        android:hint="Username"
+        android:hint="Email"
+        android:textColor="#fff"
         android:textColorHint="#fff"
         android:drawableLeft="@drawable/ic_person_white_24dp"/>
 
@@ -42,6 +43,7 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/password"
+        android:textColor="#fff"
         android:drawablePadding="12dp"
         android:padding="12dp"
         android:hint="Password"
@@ -62,6 +64,7 @@
         android:layout_marginTop="16dp"
         android:text="Remember me "
         android:textColor="#fff"
+        android:buttonTint="#fff"
         android:id="@+id/remember"
         />
 

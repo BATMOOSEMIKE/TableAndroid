@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "416930755767",
+    "firebase_url": "https://tablelogin-36e63.firebaseio.com",
+    "project_id": "tablelogin-36e63",
+    "storage_bucket": "tablelogin-36e63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416930755767:android:4be675cb09148c8acd0932",
+        "android_client_info": {
+          "package_name": "com.example.androidtable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416930755767-bnil98gfbgm5k4hp52koasifcn2mau39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDImYnNCkXoIb3ZUDhkqiq6SKp_4qXajXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416930755767-bnil98gfbgm5k4hp52koasifcn2mau39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
