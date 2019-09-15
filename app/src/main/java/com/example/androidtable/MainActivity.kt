@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(){
             var password = passwordBox.text.toString().trim()
             var email = emailBox.text.toString().trim()
             var remember = rememberBox.isChecked
-            
+
             fbAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener{task: Task<AuthResult> ->
                 if(task.isSuccessful){
                     Toast.makeText(this@MainActivity, "Login Completed", Toast.LENGTH_SHORT).show()
@@ -41,10 +41,7 @@ class MainActivity : AppCompatActivity(){
                 } else {
                     Toast.makeText(this@MainActivity, "Login failed", Toast.LENGTH_SHORT).show()
                 }
-
             }
-
-
         }
 
         signupButton.setOnClickListener{
@@ -60,11 +57,8 @@ class MainActivity : AppCompatActivity(){
                 } else{
                     Toast.makeText(this@MainActivity, "Registration Failed", Toast.LENGTH_SHORT).show()
                 }
-
             }
-
         }
     }
-
-
 }
+
