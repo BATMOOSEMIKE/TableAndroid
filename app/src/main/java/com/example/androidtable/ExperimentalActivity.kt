@@ -4,22 +4,20 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebView
-import android.webkit.WebViewClient
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_map.*
 
-
-class MapActivity : AppCompatActivity() {
+class ExperimentalActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_map)
+        setContentView(R.layout.activity_experimental)
 
-        var mapBox = findViewById<WebView>(R.id.mapbox)
-        mapBox.settings.javaScriptEnabled = true
-        mapBox.loadUrl("http://www.google.com/maps")
-        mapBox.webViewClient = WebViewClient()
+        var navbar = findViewById<BottomNavigationView>(R.id.bottomNavigation)
 
-        // handle the bottom navigation item click
+        navbar.getMenu().findItem(R.id.experimental).setChecked(true)
+
         bottomNavigation.setOnNavigationItemSelectedListener { item ->
 
             var intent = Intent(this, MapActivity::class.java)
